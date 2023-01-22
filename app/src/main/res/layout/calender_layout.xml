@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#659CC8">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="end">
+
+    <TextView
+        android:id="@+id/cancel_calender"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/edtixt_margin"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="@string/textcancel"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/teal_200"
+        android:textSize="@dimen/textsize" />
+
+    <TextView
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/teal_200"
+        android:textSize="@dimen/textsize"
+        android:layout_marginEnd="@dimen/layoutmargintop"
+        android:text="@string/btnOK" />
+
+</LinearLayout>
+
+</LinearLayout>

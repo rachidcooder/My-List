@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My List</string>
+    <string name="mission_Name">Task</string>
+    <string name="textweek">Week Tasks</string>
+    <string name="textday">Day Tasks</string>
+    <string name="textmonth">Month Tasks</string>
+    <string name="btnfinsh">done</string>
+    <string name="missiondat">date to finish task</string>
+    <string name="textcancel">cancel</string>
+    <string name="btnOK">ok</string>
+</resources>

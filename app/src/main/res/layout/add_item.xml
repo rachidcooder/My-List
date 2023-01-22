@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#78BBF1"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:layout_margin="5dp"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"
+        android:hint="@string/mission_Name" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/task_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:inputType="date"
+            android:paddingStart="10dp"
+            android:layout_margin="5dp"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"
+            android:hint="@string/missiondat" />
+        <ImageView
+            android:id="@+id/calender"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_caleder"
+            android:layout_marginEnd="@dimen/edtixt_margin"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layoutmargintop">
+        <RadioGroup
+            android:id="@+id/listype_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/radday"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="@string/textday" />
+
+            <RadioButton
+                android:id="@+id/radweek"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/textweek" />
+
+            <RadioButton
+                android:id="@+id/rad_month"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/textmonth" />
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/layoutmargintop">
+
+        <Button
+            android:id="@+id/canecel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="10dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/item_shape"
+            android:text="cancel" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="10dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/item_shape"
+            android:text="done" />
+    </LinearLayout>
+
+
+</LinearLayout>

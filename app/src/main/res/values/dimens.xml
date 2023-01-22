@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize">20dp</dimen>
+    <dimen name="padstart">10dp</dimen>
+    <dimen name="edtixt_margin">8dp</dimen>
+    <dimen name="marginbuttons">5dp</dimen>
+    <dimen name="titelsize">25dp</dimen>
+    <dimen name="fabmargin">16dp</dimen>
+    <dimen name="titelmargin">10dp</dimen>
+    <dimen name="layoutmargintop">10dp</dimen>
+</resources>
